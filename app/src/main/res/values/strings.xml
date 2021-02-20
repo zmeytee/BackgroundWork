@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BackgroundWorkX</string>
+    <string name="download_file_from">Download file from:</string>
+    <string name="url">url</string>
+    <string name="download">Download</string>
+    <string name="cancel_download">Cancel download</string>
+    <string name="wait_download">Ожидание начала загрузки...</string>
+    <string name="error_message">Error message</string>
+    <string name="retry">Retry</string>
+    <string name="file_download_success">Файл успешно загружен</string>
+    <string name="downloading_canceled">Загрузка отменена</string>
+    <string name="downloading_blocked">Загрузка заблокирована</string>
+    <string name="file_download_error">Произошла ошибка при загрузке файла</string>
+</resources>
