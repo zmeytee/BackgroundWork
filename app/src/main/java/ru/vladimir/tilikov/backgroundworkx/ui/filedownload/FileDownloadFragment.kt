@@ -1,4 +1,4 @@
-package ru.vladimir.tilikov.backgroundworkx.presentation.filedownload
+package ru.vladimir.tilikov.backgroundworkx.ui.filedownload
 
 import android.os.Bundle
 import android.view.View

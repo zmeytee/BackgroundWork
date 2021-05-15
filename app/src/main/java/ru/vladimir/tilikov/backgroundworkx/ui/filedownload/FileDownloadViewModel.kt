@@ -1,11 +1,11 @@
-package ru.vladimir.tilikov.backgroundworkx.presentation.filedownload
+package ru.vladimir.tilikov.backgroundworkx.ui.filedownload
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.launch
-import ru.vladimir.tilikov.backgroundworkx.data.repositories.FileRepository
+import ru.vladimir.tilikov.backgroundworkx.repositories.FileRepository
 
 @ExperimentalCoroutinesApi
 class FileDownloadViewModel(application: Application): AndroidViewModel(application) {

@@ -7,12 +7,14 @@ import retrofit2.create
 
 object Networking {
 
+    private const val BASE_URL = "https://google.com"
+
     private val okHttpClient = OkHttpClient.Builder()
         .addNetworkInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
         .build()
 
     private val retrofit = Retrofit.Builder()
-        .baseUrl("https://google.com")
+        .baseUrl(BASE_URL)
         .client(okHttpClient)
         .build()
 

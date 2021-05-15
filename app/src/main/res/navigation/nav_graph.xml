@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/fileDownloadFragment"
         tools:layout="@layout/fragment_file_download"
-        android:name="ru.vladimir.tilikov.backgroundworkx.presentation.filedownload.FileDownloadFragment"
+        android:name="ru.vladimir.tilikov.backgroundworkx.ui.filedownload.FileDownloadFragment"
         android:label="FileDownloadFragment" >
     </fragment>
 </navigation>

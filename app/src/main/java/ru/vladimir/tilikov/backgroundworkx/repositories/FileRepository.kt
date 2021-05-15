@@ -1,4 +1,4 @@
-package ru.vladimir.tilikov.backgroundworkx.data.repositories
+package ru.vladimir.tilikov.backgroundworkx.repositories
 
 import android.annotation.SuppressLint
 import android.content.Context
